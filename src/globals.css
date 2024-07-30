@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+	--sans-font: 'Istok Web', sans-serif;
+	--mono-font: 'Cousine', monospace;
+	--font-size: 16px;
+	--font-size-sm: 14px;
+	--font-size-mono: 15px;
+	--font-size-lg: 18px;
+	--font-size-xl: 20px;
+	--font-size-xxl: 24px;
+
+	/* CSS HSL */
+	/* 
+	--timberwolf: hsla(0, 0%, 82%, 1);
+	--platinum: hsla(0, 0%, 86%, 1);
+	--light-sky-blue: hsla(204, 81%, 74%, 1);
+	--dim-gray: hsla(0, 0%, 39%, 1);
+	--davys-gray: hsla(0, 0%, 30%, 1);	
+	*/
+	--rich-black: hsla(195, 46%, 5%, 0.85);
+	--light-sky-blue: hsla(204, 81%, 74%, 1);
+	--pacific-cyan: hsla(190, 72%, 48%, 1);
+	--moonstone: hsla(194, 35%, 60%, 1);
+	--cadet-gray: hsla(211, 16%, 68%, 1);
+	--platinum: hsla(220, 5%, 88%, 1);
+	--platinum-light: hsla(220, 5%, 98%, 1);
+	--dim-gray: hsla(0, 0%, 39%, 1);
+	--davys-gray: hsla(0, 0%, 30%, 1);	
+
+	--box-shadow-inset: hsla(0, 0%, 39%, .7) 3px 3px 4px 0px inset, 
+											rgba(255, 255, 255, 0.25) -3px -3px 4px 1px inset;
+	--box-shadow-lg: rgba(0, 0, 0, 0.2) 0px 10px 15px -3px, 
+									 rgba(0, 0, 0, 0.1) 0px 4px 6px -2px;
+
+	/* padding*/
+	--padding-xs: 0.2rem;
+	--padding-sm: 0.4rem;
+	--padding-md: 0.8rem;
+	--padding-lg: 1.2rem;
+	--padding-xl: 1.6rem;
+	--padding-xxl: 2.4rem;
+
+	/* margin */
+	--margin-sm: 0.4rem;
+	--margin-md: 0.8rem;
+	--margin-lg: 1rem;
+	--margin-xl: 1.4rem;
+	--margin-xxl: 2rem;
+
+	/* border radius */
+	--border-radius-sm: 0.2rem;
+	--border-radius-md: 0.4rem;
+	--border-radius-lg: 0.8rem;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: var(--sans-font);
+	background-color: #dbdbdb;
+}
