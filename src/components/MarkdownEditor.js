@@ -31,10 +31,10 @@ const MarkdownEditor = () => {
 
 	return (
 		<div className={styles.wrapper}>
-			<div className={styles.editor}>
+			<div className={styles.editor} id="editor">
 				<textarea value={markdown} onChange={handleChange}></textarea>
 			</div>
-			<div className={styles.preview}
+			<div className={styles.preview} id='preview'
       dangerouslySetInnerHTML={{__html: marked.parse(markdown)}}
     />
 		</div>
